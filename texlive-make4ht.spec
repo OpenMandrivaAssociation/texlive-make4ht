@@ -1,6 +1,6 @@
 Name:		texlive-make4ht
 Version:	62953
-Release:	1
+Release:	2
 Summary:	A build system for tex4ht
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/make4ht
