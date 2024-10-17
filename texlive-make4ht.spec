@@ -3,7 +3,7 @@ Version:	62953
 Release:	2
 Summary:	A build system for tex4ht
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/make4ht
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/make4ht
 License:	lppl1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/make4ht.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/make4ht.doc.r%{version}.tar.xz
