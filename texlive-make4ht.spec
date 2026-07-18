@@ -1,5 +1,6 @@
 %global tl_name make4ht
 %global tl_revision 78133
+%global tl_bin_links make4ht:%{_texmfdistdir}/scripts/make4ht/make4ht
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -16,6 +17,8 @@ BuildSystem:	texlive
 Requires:	texlive(make4ht.bin)
 Requires:	tex4ht
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 make4ht is a simple build system for tex4ht, a TeX to XML converter. It
